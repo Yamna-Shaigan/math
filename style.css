@@ -1,0 +1,109 @@
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ADD8E6; /* Light Blue */
+  color: #000; /* Black */
+  line-height: 1.6;
+}
+
+/* Hero Section */
+
+.hero {
+  background-color: #1A76D2; /* Blue */
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #1A76D2, #032B44);
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Course Details */
+
+.course-details {
+  background-color: #032B44; /* Dark Blue */
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+.course-details h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Syllabus */
+
+.syllabus {
+  background-color: #032B44; /* Dark Blue */
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+.syllabus h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Enroll Button */
+
+#enroll-btn {
+  background-color: #1A76D2; /* Blue */
+  color: #fff;
+  padding: 15px 30px;
+  border-style: solid;
+  border-color: #032B44;
+  border-width: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+#enroll-btn:hover {
+  background-color: #1877b3; /* Darker Blue */
+}
+
+/* Quiz Button */
+
+#quiz-btn {
+  background-color: #1A76D2; /* Blue */
+  color: #fff;
+  padding: 15px 30px;
+  border-style: solid;
+  border-color: #032B44;
+  border-width: 3px;
+  border-radius: 5px;
+  
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+#quiz-btn:hover {
+  background-color: #1877b3; /* Darker Blue */
+}
+
+/* Quiz Container */
+
+#quiz-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.center {
+  text-align: center;
+}
